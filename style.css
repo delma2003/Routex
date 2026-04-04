@@ -496,3 +496,145 @@ body {
 .bottom-links span:hover {
   color: #6cc04a;
 }
+
+/* ================= GLOBAL ================= */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ================= NAVBAR ================= */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .navbar strong {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* ================= HERO ================= */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
+
+/* ================= ABOUT ================= */
+@media (max-width: 992px) {
+
+  .about-right {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .image-grid {
+    height: auto;
+  }
+
+  .img {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 15px;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  .exp-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  .dots {
+    display: none;
+  }
+}
+
+/* ================= SERVICES ================= */
+@media (max-width: 992px) {
+
+  .services-cards {
+    flex-direction: column;
+  }
+
+  .services-bg {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  .nav-buttons {
+    right: 20px;
+    top: 20px;
+  }
+
+  .services-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .services-title {
+    font-size: 26px;
+  }
+
+  .service-card {
+    padding: 25px 20px;
+  }
+
+  .service-card h5 {
+    font-size: 16px;
+  }
+
+  .service-card p {
+    font-size: 13px;
+  }
+}
+
+/* ================= FOOTER ================= */
+@media (max-width: 768px) {
+
+  .footer-top {
+    text-align: center;
+  }
+
+  .footer-logo {
+    justify-content: center;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .bottom-links span {
+    margin: 0 10px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
