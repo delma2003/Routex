@@ -253,8 +253,8 @@ body {
 /* CARDS LAYOUT */
 .services-cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
-  margin-top: 50px;
 }
 
 /* CARD */
@@ -266,6 +266,7 @@ body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.05);
   text-align: center;
   transition: 0.3s;
+  height: 100%;
 }
 
 .service-card:hover {
@@ -545,6 +546,11 @@ img {
     height: auto;
   }
 
+  .image-grid img {
+  width: 100%;
+  display: block;
+}
+
   .img {
     position: relative !important;
     width: 100% !important;
@@ -559,6 +565,7 @@ img {
     top: 0;
     left: 0;
     margin-top: 20px;
+    padding: 15px;
   }
 
   .dots {
@@ -637,4 +644,13 @@ img {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .about-title {
+  font-size: 24px;
+}
+
+.services-title {
+  font-size: 24px;
+}
+
 }
